@@ -35,7 +35,6 @@ def add_columns(df: pd.DataFrame) -> None:
 def filter_images(df: pd.DataFrame, max_width: int, max_height: int) -> pd.DataFrame:
     '''
     Функция фильтрации изображений
-    :param df:
     :param max_width: макс ширин
     :param max_height: макс высота
     :return: pandas DataFrame (object)

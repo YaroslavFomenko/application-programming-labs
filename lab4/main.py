@@ -16,7 +16,7 @@ def parse_arguments() -> argparse.Namespace:
 
 def create_histogram(col: pd.Series, x_label: str, plot_label: str) -> None:
     """
-    Функция создания гистограммы распределения площадей изображений
+    Функция создания гистограммы распределения площади изображений
     :param df: pandas DataFrame (object)
     :return: None
     """
